@@ -1,4 +1,9 @@
 <h1>todo-list-item works!</h1>
 <input type="text" >
-<p>Title {{taskTitle}}</p>
+<button>Add Task</button>
+<div>
+    <ul *ngFor="let data of task">
+        <li>{{data.value}}</li>
+    </ul>
+</div>
 
