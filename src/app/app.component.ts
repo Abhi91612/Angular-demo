@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { TodoListItemComponent } from './todo-list-item/todo-list-item.component';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, TodoListItemComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
+})
+export class AppComponent {
+  title = 'Demo';
+}
