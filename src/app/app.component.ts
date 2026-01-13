@@ -10,5 +10,7 @@ import { TodoListItemComponent } from './todo-list-item/todo-list-item.component
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  task:[]=[];
   title = 'Demo';
+  
 }
